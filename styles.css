@@ -25,7 +25,6 @@ li {
 #logo {
   display: flex;
   flex-direction: row nowrap;
-
   justify-content: flex-start;
   color: black;
   font-family: "bebas neue", sans-serif;
@@ -43,6 +42,7 @@ li {
   flex-direction: row;
   padding: 0px;
   margin: 0px;
+  font-size: 1em;
 }
 
 .logo1 {
@@ -67,8 +67,7 @@ li {
 .list-items {
   display: inline-flex;
   flex-direction: row;
-  font-family: "poppins", sans-serif;
-  font-size: large;
+
   color: black;
   justify-content: space-evenly;
   padding: 0px;
@@ -81,4 +80,58 @@ li {
   color: skyblue;
   padding: 0px;
   margin: 0px;
+}
+
+/* font */
+
+.search-input {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-align: flex-start;
+  font-family: "poppins", sans-serif;
+  font-size: small;
+  margin: 0px 24px 0px 0px;
+  padding: 5px 10px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.search-btn:hover {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  padding: 0px 10px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+
+.search-btn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: large;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 38px;
+}
+
+.search-form {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1.5rem;
 }
