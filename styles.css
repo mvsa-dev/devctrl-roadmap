@@ -10,7 +10,7 @@ html,
 body {
   height: 100vh;
   width: 100vw;
-  font-size: x-large;
+  font-size: large;
 }
 ul {
   width: 100%;
@@ -29,6 +29,7 @@ li {
   color: black;
   font-family: "bebas neue", sans-serif;
   font-weight: 400;
+  font-size: x-large;
   padding: 0px;
   margin: 0px;
 }
@@ -67,12 +68,12 @@ li {
 .list-items {
   display: inline-flex;
   flex-direction: row;
-
+  flex-wrap: nowrap;
   color: black;
   justify-content: space-evenly;
   padding: 0px;
   margin: 0px;
-  width: 80%;
+  width: 100%;
 }
 
 .list-items a:hover {
@@ -82,7 +83,17 @@ li {
   margin: 0px;
 }
 
-/* font */
+/* nav form */
+.nav {
+  padding: 0px 100px;
+}
+.search-form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
 
 .search-input {
   display: flex;
@@ -91,11 +102,12 @@ li {
   text-align: flex-start;
   font-family: "poppins", sans-serif;
   font-size: small;
-  margin: 0px 24px 0px 0px;
+  margin: 0px 24px 0px 100px;
   padding: 5px 10px;
   height: 27px;
   border-radius: 5px;
   border: 1px solid black;
+  width: 40%;
 }
 
 .search-btn:hover {
@@ -104,14 +116,16 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "poppins", sans-serif;
-  font-size: 18px;
+  font-family: "Bebas neue", sans-serif;
+  font-size: large;
+  margin: 0px 0px 0px 30px;
   padding: 0px 10px;
   font-weight: 300;
   border-radius: 5px;
   border: 1px solid black;
   background: white;
   color: black;
+  width: 87px;
 }
 
 .search-btn {
@@ -120,18 +134,14 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "poppins", sans-serif;
+  font-family: "Bebas neue", sans-serif;
   font-size: large;
+  margin: 0px 0px 0px 30px;
   padding: 0px 10px;
   border-radius: 5px;
   border: 1px solid black;
   background: black;
   color: white;
-  height: 38px;
-}
-
-.search-form {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 1.5rem;
+  height: 40px;
+  width: 87px;
 }
