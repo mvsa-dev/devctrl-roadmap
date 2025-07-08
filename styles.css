@@ -71,7 +71,11 @@ li {
   flex-direction: row;
   flex-wrap: nowrap;
   color: black;
-  justify-content: space-evenly;
+  font-family: "bebas neue", sans-serif;
+  font-weight: 400;
+  font-size: x-large;
+  justify-content: space-around;
+  align-items: space-evenly;
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -79,7 +83,7 @@ li {
 
 .list-items a:hover {
   cursor: pointer;
-  color: skyblue;
+  color: silver;
   padding: 0px;
   margin: 0px;
 }
@@ -100,12 +104,10 @@ li {
   text-align: flex-start;
   font-family: "poppins", sans-serif;
   font-size: small;
-  margin: 0px 24px 0px 100px;
   padding: 5px 10px;
-  height: 27px;
   border-radius: 5px;
   border: 1px solid black;
-  width: 40%;
+  width: 63%;
 }
 
 .search-btn:hover {
@@ -177,5 +179,7 @@ li {
 }
 
 .card-body {
-  height: 450px;
+  height: 750px;
+  padding: 0px;
+  margin: 0px;
 }
