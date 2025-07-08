@@ -12,6 +12,7 @@ body {
   width: 100vw;
   font-size: large;
 }
+
 ul {
   width: 100%;
 }
@@ -84,9 +85,6 @@ li {
 }
 
 /* nav form */
-.nav {
-  padding: 0px 100px;
-}
 .search-form {
   display: flex;
   flex-flow: row nowrap;
@@ -144,4 +142,40 @@ li {
   color: white;
   height: 40px;
   width: 87px;
+}
+
+/* Card styles */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main > .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  background: black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-body {
+  height: 450px;
 }
