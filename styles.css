@@ -156,7 +156,7 @@ li {
   height: 100%;
 }
 
-.main > .card-container {
+.main > .card-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,20 +166,45 @@ li {
   margin: 0px;
 }
 
-.card {
+.card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100%;
+  height: 790px;
   background: black;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.card-body {
-  height: 750px;
+.card-container > .title {
+  color: white;
+  font-family: "bebas neue", sans-serif;
+  font-weight: 400;
+  font-size: large;
   padding: 0px;
+  margin: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h3 {
+  font-size: x-large;
+  font-weight: 100;
   margin: 0px;
+  padding: 0px;
+}
+
+.card-body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  padding: 0px !important;
+  margin: 20px;
 }
