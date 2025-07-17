@@ -169,12 +169,13 @@ li {
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 80%;
   height: 790px;
   background: black;
   border-radius: 10px;
+  padding: 0px 20px 20px 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -184,7 +185,7 @@ li {
   font-weight: 400;
   font-size: large;
   padding: 0px;
-  margin: 10px;
+  margin: 10px 0px 20px 0px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -203,8 +204,33 @@ h3 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  height: 200px;
-  width: 200px;
+  align-items: center;
   padding: 0px !important;
-  margin: 20px;
+  margin: 0px;
+  width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  border: 3px dotted white;
+  font-family: "bebas neue", sans-serif;
+  color: white;
+}
+
+.card-body:hover {
+  cursor: pointer;
+  color: white;
+  border: 3px dotted white;
+  width: 100%;
+  max-height: 200px;
+}
+
+#createTask-btn {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Bebas neue", sans-serif;
+  font-size: 3rem;
+  color: inherit;
+  width: 100%;
 }
